@@ -20,7 +20,7 @@ int main(void)
 		else if (n == 44)
 			n = 32;
 		else if (n == 32)
-  			n = m + 1;
+			n = m + 1;
 		else if (n == 57)
 			n = 10;
 		else
