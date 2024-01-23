@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char n = '0';
+	char n = 48;
 
 	while (n != 11)
 	{
