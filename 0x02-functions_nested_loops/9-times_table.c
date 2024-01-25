@@ -15,7 +15,7 @@ void times_table(void)
 			c = 0;
 			while (c != 4)
 			{
-				if (a * b > 10)
+				if (a * b >= 10)
 				{
 					if (c == 0)
 						d = -16;
@@ -34,7 +34,7 @@ void times_table(void)
 						d = (a * b) % 10;
 				}
 				if (c == 3 && b == 9)
-					d = -38;
+					d = -1 * '&';
 				else if (c == 3)
 					d = -4;
 				if (b != 0 || (b == 0 && c > 1))
