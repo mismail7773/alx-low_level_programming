@@ -36,7 +36,7 @@ void print_to_98(int n)
 			_putchar('0' + c / d);
 			c %= d;
 			d /= 10;
-			a += e--;
+			a = 2 + e--;
 		}
 		if (n != 98)
 		{
