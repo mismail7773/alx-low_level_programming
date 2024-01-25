@@ -28,7 +28,7 @@ void print_to_98(int n)
 		n = c;
 		if (n < 0)
 		{
-			n *= -1;
+			c *= -1;
 			_putchar('-');
 		}
 		while (e >= 1)
